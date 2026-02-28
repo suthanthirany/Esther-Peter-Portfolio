@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Esther Peter | Data Scientist</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a class="nav-brand" href="#home">
+    <div class="nav-avatar">EP</div>
+    <span class="nav-name">Esther Peter.</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#impact">Impact</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Stack</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#contact" class="nav-cta">Contact</a></li>
+  </ul>
+  <button class="hamburger" onclick="document.querySelector('.mob-menu').classList.toggle('open')" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<div class="mob-menu">
+  <a href="#impact" onclick="this.parentElement.classList.remove('open')">Impact</a>
+  <a href="#about" onclick="this.parentElement.classList.remove('open')">About</a>
+  <a href="#skills" onclick="this.parentElement.classList.remove('open')">Stack</a>
+  <a href="#projects" onclick="this.parentElement.classList.remove('open')">Projects</a>
+  <a href="#education" onclick="this.parentElement.classList.remove('open')">Education</a>
+  <a href="#contact" onclick="this.parentElement.classList.remove('open')">Contact</a>
+</div>
+
+<!-- HERO -->
+<section id="home">
+  <div class="hero-glow"></div>
+  <div class="hero-glow2"></div>
+  <div class="hero-inner">
+    <div class="hero-code-tag"><span>// </span>DATA SCIENTIST &amp; ML ENGINEER</div>
+    <h1 class="hero-h1">
+      I build <span class="highlight">intelligent systems</span><br>
+      that turn data into decisions.
+    </h1>
+    <p class="hero-sub">
+      Recent Data Science graduate specializing in machine learning, NLP, and large-scale data engineering. I help teams move from raw datasets to production-grade predictive solutions.
+    </p>
+    <div class="hero-stats">
+      <div class="hstat">
+        <div class="hstat-num">6+</div>
+        <div class="hstat-label">Projects Built</div>
+      </div>
+      <div class="hstat">
+        <div class="hstat-num">ML</div>
+        <div class="hstat-label">Specialization</div>
+      </div>
+      <div class="hstat">
+        <div class="hstat-num">NLP</div>
+        <div class="hstat-label">Expertise</div>
+      </div>
+      <div class="hstat">
+        <div class="hstat-num">3yr</div>
+        <div class="hstat-label">Degree Study</div>
+      </div>
+    </div>
+    <div class="hero-btns">
+      <a href="#projects" class="btn-primary">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.2c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5"/></svg>
+        View Projects
+      </a>
+      <a href="#contact" class="btn-outline">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+        Get In Touch
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- IMPACT -->
+<section id="impact">
+  <div class="section-tag reveal">ENGINEERING FOR RESULTS</div>
+  <h2 class="section-h2 reveal">Built to solve real problems.</h2>
+  <p class="section-sub reveal">Every project is designed with outcomes in mind — from drug safety to behavioral authentication to shopper analytics. Here's what my work delivers.</p>
+  <div class="impact-grid">
+    <div class="impact-card reveal">
+      <div class="impact-label">Scale</div>
+      <div class="impact-big">6+</div>
+      <div class="impact-title">End-to-End ML Projects</div>
+      <div class="impact-desc">From problem definition to deployed web applications, covering healthcare, e-commerce, NLP, and biometrics domains.</div>
+    </div>
+    <div class="impact-card reveal">
+      <div class="impact-label">Big Data</div>
+      <div class="impact-big">∞</div>
+      <div class="impact-title">Scalable Data Pipelines</div>
+      <div class="impact-desc">Designed Apache Spark & Snowflake pipelines to process and model large-scale datasets with real-time stream analytics.</div>
+    </div>
+    <div class="impact-card reveal">
+      <div class="impact-label">Accuracy</div>
+      <div class="impact-big">R²</div>
+      <div class="impact-title">Model Evaluation Driven</div>
+      <div class="impact-desc">Every model is rigorously evaluated using RMSE, MAE, R², and cross-validation to ensure reliable, production-ready performance.</div>
+    </div>
+    <div class="impact-card reveal">
+      <div class="impact-label">Full-Stack</div>
+      <div class="impact-big">3D</div>
+      <div class="impact-title">Interactive Data Applications</div>
+      <div class="impact-desc">Built full-stack data-driven apps including a 3D room visualizer and a drug side-effects web platform using React, Flask, and Azure.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="about-left">
+    <div class="section-tag reveal">BACKGROUND</div>
+    <h2 class="section-h2 reveal">About Me</h2>
+    <div class="about-body reveal">
+      <p>I'm a <strong>recent Data Science graduate</strong> (BSc Hons) from the University of Plymouth, UK — studied at NSBM Green University, Sri Lanka — with hands-on experience applying ML, NLP, and large-scale data analysis to real-world problems.</p>
+      <p>I specialize in designing <strong>predictive solutions</strong> and building full-stack data-driven applications. My technical foundation spans Python, SQL, Apache Spark, and a wide range of machine learning libraries, backed by a solid understanding of statistical analysis and probability.</p>
+      <p>I thrive at the intersection of <strong>data engineering, modelling, and product thinking</strong> — transforming messy datasets into impactful, production-ready systems. Based in Colombo, Sri Lanka, and open to global opportunities.</p>
+    </div>
+  </div>
+  <div class="about-right">
+    <div class="info-card reveal">
+      <div class="info-icon">🎓</div>
+      <div><div class="info-label">Degree</div><div class="info-val">BSc (Hons) Data Science</div></div>
+    </div>
+    <div class="info-card reveal">
+      <div class="info-icon">🏫</div>
+      <div><div class="info-label">University</div><div class="info-val">University of Plymouth, UK</div></div>
+    </div>
+    <div class="info-card reveal">
+      <div class="info-icon">📅</div>
+      <div><div class="info-label">Graduated</div><div class="info-val">2022 — 2025</div></div>
+    </div>
+    <div class="info-card reveal">
+      <div class="info-icon">📍</div>
+      <div><div class="info-label">Location</div><div class="info-val">Colombo, Sri Lanka 🇱🇰</div></div>
+    </div>
+    <div class="info-card reveal">
+      <div class="info-icon">🔬</div>
+      <div><div class="info-label">Specialization</div><div class="info-val">ML · NLP · Big Data</div></div>
+    </div>
+    <div class="info-card reveal">
+      <div class="info-icon">✅</div>
+      <div><div class="info-label">Status</div><div class="info-val" style="color:var(--green);">Open to Opportunities</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="section-tag reveal">TECHNICAL ARSENAL</div>
+  <h2 class="section-h2 reveal">The Stack</h2>
+  <p class="section-sub reveal">A curated toolkit built across languages, ML frameworks, data infrastructure, and web technologies — chosen for solving real engineering challenges.</p>
+  <div class="stack-grid">
+    <div class="stack-card reveal">
+      <div class="stack-card-header">
+        <div class="stack-icon">💻</div>
+        <div class="stack-card-title">Primary Languages</div>
+      </div>
+      <div class="stack-card-sub">Core Foundation</div>
+      <div class="stack-tags">
+        <span class="stag">Python</span>
+        <span class="stag">R</span>
+        <span class="stag">C / C++</span>
+        <span class="stag">C#</span>
+        <span class="stag">JavaScript</span>
+        <span class="stag">PHP</span>
+      </div>
+    </div>
+    <div class="stack-card reveal">
+      <div class="stack-card-header">
+        <div class="stack-icon">🤖</div>
+        <div class="stack-card-title">ML & AI</div>
+      </div>
+      <div class="stack-card-sub">Intelligence Layer</div>
+      <div class="stack-tags">
+        <span class="stag">scikit-learn</span>
+        <span class="stag">Spark MLlib</span>
+        <span class="stag">NLP / TF-IDF</span>
+        <span class="stag">XGBoost</span>
+        <span class="stag">Random Forest</span>
+        <span class="stag">MLP Neural Net</span>
+      </div>
+    </div>
+    <div class="stack-card reveal">
+      <div class="stack-card-header">
+        <div class="stack-icon">🗄️</div>
+        <div class="stack-card-title">Data & Cloud</div>
+      </div>
+      <div class="stack-card-sub">Infrastructure & Scale</div>
+      <div class="stack-tags">
+        <span class="stag">Apache Spark</span>
+        <span class="stag">Snowflake</span>
+        <span class="stag">SQL / MySQL</span>
+        <span class="stag">Azure Functions</span>
+        <span class="stag">Power BI</span>
+        <span class="stag">Entity Framework</span>
+      </div>
+    </div>
+    <div class="stack-card reveal">
+      <div class="stack-card-header">
+        <div class="stack-icon">🌐</div>
+        <div class="stack-card-title">Web & Visualization</div>
+      </div>
+      <div class="stack-card-sub">Product Layer</div>
+      <div class="stack-tags">
+        <span class="stag">React.js</span>
+        <span class="stag">Flask</span>
+        <span class="stag">HTML / CSS</span>
+        <span class="stag">Bootstrap</span>
+        <span class="stag">Data Visualization</span>
+        <span class="stag">Statistical Analysis</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-tag reveal">ENGINEERING LABS</div>
+  <h2 class="section-h2 reveal">Projects</h2>
+  <p class="section-sub reveal">End-to-end data science projects spanning healthcare, e-commerce analytics, behavioral security, NLP, and predictive modelling.</p>
+  <div class="proj-grid">
+
+    <div class="proj-card reveal">
+      <div class="proj-header">
+        <div class="proj-icon">💊</div>
+        <a href="https://github.com/suthanthirany/-Predicting-Drug-Side-Effects---Machine-Learning-" target="_blank" class="proj-link-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.2c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5"/></svg>
+          GitHub
+        </a>
+      </div>
+      <div class="proj-title">MedAIverse — Drug Side Effects Prediction</div>
+      <div class="proj-desc">ML models to predict adverse drug reactions using drug-related datasets. Focused on data preprocessing, feature engineering, model evaluation, and a web-based application to visualize drug side effects.</div>
+      <div class="proj-tags">
+        <span class="ptag">Python</span><span class="ptag">Machine Learning</span><span class="ptag">Flask</span><span class="ptag">Feature Engineering</span>
+      </div>
+    </div>
+
+    <div class="proj-card reveal">
+      <div class="proj-header">
+        <div class="proj-icon">🛒</div>
+        <span style="font-family:'JetBrains Mono',monospace;font-size:0.65rem;color:var(--orange);background:rgba(249,115,22,0.08);border:1px solid rgba(249,115,22,0.2);padding:0.3rem 0.8rem;border-radius:6px;">In Progress</span>
+      </div>
+      <div class="proj-title">Online Shopper Behavior Analytics & Prediction</div>
+      <div class="proj-desc">Scalable analytics solution using Apache Spark and Snowflake to process the Online Shoppers Purchasing Intention Dataset. Real-time analytics with Snowflake Streams and predictive models uncovering shopper trends.</div>
+      <div class="proj-tags">
+        <span class="ptag">Apache Spark</span><span class="ptag">Snowflake</span><span class="ptag">Spark MLlib</span><span class="ptag">Real-time</span>
+      </div>
+    </div>
+
+    <div class="proj-card reveal">
+      <div class="proj-header">
+        <div class="proj-icon">🛋️</div>
+        <a href="https://github.com/suthanthirany/HCI---3D-Customization-" target="_blank" class="proj-link-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.2c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5"/></svg>
+          GitHub
+        </a>
+      </div>
+      <div class="proj-title">2D/3D Furniture Visualization Platform</div>
+      <div class="proj-desc">Full-stack web app for visualizing furniture in customizable 2D/3D room layouts. Drag-and-drop placement, real-time styling, floor and wall customization. Built with React.js, Azure Functions, and Entity Framework Core.</div>
+      <div class="proj-tags">
+        <span class="ptag">React.js</span><span class="ptag">Azure Functions</span><span class="ptag">SQL</span><span class="ptag">Bootstrap</span>
+      </div>
+    </div>
+
+    <div class="proj-card reveal">
+      <div class="proj-header">
+        <div class="proj-icon">🔐</div>
+        <a href="https://github.com/suthanthirany/Digital-Behavior-Authentication-System" target="_blank" class="proj-link-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.2c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5"/></svg>
+          GitHub
+        </a>
+      </div>
+      <div class="proj-title">Digital Behavior Authentication System</div>
+      <div class="proj-desc">User authentication using acceleration data from smartphones & smartwatches to verify identity through behavioral biometrics. Implemented Feedforward MLP neural network in MATLAB with time & frequency-domain analysis.</div>
+      <div class="proj-tags">
+        <span class="ptag">MATLAB</span><span class="ptag">MLP Neural Net</span><span class="ptag">Biometrics</span><span class="ptag">Signal Processing</span>
+      </div>
+    </div>
+
+    <div class="proj-card reveal">
+      <div class="proj-header">
+        <div class="proj-icon">💬</div>
+        <a href="https://github.com/suthanthirany/NLP-Sentiment-Analysis" target="_blank" class="proj-link-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.2c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5"/></svg>
+          GitHub
+        </a>
+      </div>
+      <div class="proj-title">NLP Sentiment Analysis System</div>
+      <div class="proj-desc">NLP system to classify text sentiment using ML classifiers. Full text preprocessing pipeline with tokenization, lemmatization, and feature extraction via TF-IDF and Bag of Words.</div>
+      <div class="proj-tags">
+        <span class="ptag">Python</span><span class="ptag">NLP</span><span class="ptag">TF-IDF</span><span class="ptag">scikit-learn</span><span class="ptag">Pandas</span>
+      </div>
+    </div>
+
+    <div class="proj-card reveal">
+      <div class="proj-header">
+        <div class="proj-icon">🚗</div>
+        <a href="https://github.com/suthanthirany/Used-car-price-prediction---Python---ML-Model" target="_blank" class="proj-link-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.2c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5"/></svg>
+          GitHub
+        </a>
+      </div>
+      <div class="proj-title">Car Price Prediction Model</div>
+      <div class="proj-desc">ML models (Linear Regression, Random Forest, XGBoost) predicting used car prices from brand, model, year, mileage, and engine size. Rigorous performance evaluation using RMSE, MAE, and R² metrics.</div>
+      <div class="proj-tags">
+        <span class="ptag">Python</span><span class="ptag">XGBoost</span><span class="ptag">Random Forest</span><span class="ptag">Regression</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+  <div class="section-tag reveal">ACADEMIC FOUNDATION</div>
+  <h2 class="section-h2 reveal">Education</h2>
+  <p class="section-sub reveal">A rigorous academic background in Data Science, providing the theoretical and practical foundations for real-world ML and data engineering work.</p>
+  <div class="edu-card reveal">
+    <div class="edu-num">🎓</div>
+    <div>
+      <div class="edu-degree">BSc (Hons) Data Science</div>
+      <div class="edu-school">University of Plymouth, UK &nbsp;·&nbsp; NSBM Green University, Sri Lanka</div>
+      <div class="edu-period">2022 — 2025</div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="section-tag reveal">WHAT'S NEXT?</div>
+  <h2 class="section-h2 reveal">Let's Build Something</h2>
+  <div class="contact-layout">
+    <div>
+      <div class="avail-badge reveal">
+        <span class="avail-dot"></span>
+        Available for Opportunities
+      </div>
+      <p class="contact-intro reveal">
+        I'm actively seeking data science, ML engineering, or analytics roles. Whether you have a challenging dataset, a product idea, or just want to connect — my inbox is open.
+      </p>
+      <a href="mailto:estherthirany@gmail.com" class="btn-primary reveal" style="display:inline-flex;">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+        Send an Email
+      </a>
+    </div>
+    <div class="contact-cards">
+      <a href="mailto:estherthirany@gmail.com" class="ccard reveal">
+        <div class="ccard-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+        </div>
+        <div><div class="ccard-label">Email</div><div class="ccard-val">estherthirany@gmail.com</div></div>
+        <span class="ccard-arrow">→</span>
+      </a>
+      <a href="https://api.whatsapp.com/send/?phone=%2B94743456828" target="_blank" class="ccard reveal">
+        <div class="ccard-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+        </div>
+        <div><div class="ccard-label">WhatsApp</div><div class="ccard-val">+94 743 456 828</div></div>
+        <span class="ccard-arrow">→</span>
+      </a>
+      <a href="https://github.com/suthanthirany" target="_blank" class="ccard reveal">
+        <div class="ccard-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.2c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+        </div>
+        <div><div class="ccard-label">GitHub</div><div class="ccard-val">github.com/suthanthirany</div></div>
+        <span class="ccard-arrow">→</span>
+      </a>
+      <a href="https://www.linkedin.com/in/esther-peter-213634258/" target="_blank" class="ccard reveal">
+        <div class="ccard-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+        </div>
+        <div><div class="ccard-label">LinkedIn</div><div class="ccard-val">Esther Peter</div></div>
+        <span class="ccard-arrow">→</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="foot-left">© 2025 <span>Esther Peter</span>. &nbsp;·&nbsp; Colombo, Sri Lanka</div>
+  <div class="foot-right">Built with HTML &amp; CSS &nbsp;·&nbsp; <a href="#home">↑ Back to top</a></div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
